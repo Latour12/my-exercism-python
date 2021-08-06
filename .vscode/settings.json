@@ -1,0 +1,16 @@
+{
+    "python.testing.pytestArgs": [
+        "anagram"
+    ],
+    "python.testing.unittestEnabled": true,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": false,
+    "jupyter.jupyterServerType": "local",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./word-count",
+        "-p",
+        "*test*.py"
+    ]
+}
